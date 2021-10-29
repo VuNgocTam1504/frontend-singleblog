@@ -1,0 +1,201 @@
+@media(max-width:1130px)
+{
+    .header_container .contact_infor{
+        display: none;
+    }
+    .form_search{
+        display: none;
+    }
+    .header_logo{
+        padding-left: 20px;
+    }
+    .nav_menu .openMenu{
+        display: block;
+    }
+    .nav_menu .mainMenu{
+        height: 300px;
+    
+        position: fixed;
+        top: 30px;
+        right: 0px;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #FFF;
+        
+        transition: top 1s ease;
+        display: none;
+        
+    }
+    .nav_menu .mainMenu li a{
+        color: black;
+        font-size: 20px;
+        padding: 10px ;
+    }
+    .nav_menu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 10px;
+        font-size: 17px;
+        right: 20px;
+    }
+    main .site_content{
+        flex-direction: column;
+            padding-left: 30px;
+    padding-right: 30px;
+    }
+    .service_slider{
+        flex-direction: column;
+    }
+    .service{
+        padding-left: 40px;
+    }
+
+    .sub{
+        padding-left: 40px;
+    }
+}
+
+
+@media(max-width:767px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        min-width: unset;
+    }
+    .nav_menu .openMenu{
+        display: block;
+    }
+    .nav_menu .mainMenu{
+        height: 300px;
+    
+        position: fixed;
+        top: 30px;
+        right: 0px;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #FFF;
+        
+        transition: top 1s ease;
+        display: none;
+        
+    }
+    .nav_menu .mainMenu li a{
+        color: black;
+        font-size: 20px;
+        padding: 10px ;
+    }
+    .nav_menu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 10px;
+        font-size: 17px;
+        right: 20px;
+    }
+    
+    .header_container .contact_infor{
+        display: none;
+    }
+    .form_search{
+        display: none;
+    }
+    .header_logo{
+        padding-left: 20px;
+    }
+    .site_background h3{
+        font-size: 30px;
+    }
+
+    main {
+        padding:0px 8px;
+    }
+    main .site_content{
+       flex-direction: column;
+
+    }
+    .post_title a h2{
+        font-size: 20px;
+    }
+    .posts{
+        width: 100%;
+    }
+
+    .like_infor{
+        text-align: center;
+    }
+    .social_icons ul li{
+       
+        margin: 0px;
+    }
+
+    .detail a h4{
+        font-size: 15px;
+    }
+
+    .blog_author{
+        padding: 0px;
+    }
+    .Googleink_container_right {
+        margin: 0px;
+        max-width: unset;
+    }
+    .Googlelink_container_right_container{
+        padding: 0px;
+    }
+    .like_comment{
+        flex-direction: column;
+    }
+    .post{
+        flex-direction: column;
+    }
+    .prev_post{
+        width: 100%;
+    }
+
+    .name_email{
+        flex-direction: column;
+        
+    }
+    .name{
+        margin-right: 0px;
+        width: 100%;
+    }
+    .name input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .email{
+        width: 100%;
+    }
+    .email input{
+        width: 100%;
+    }
+   
+    .footer_container{
+        width: 100%;
+    }
+    .service_slider{
+        flex-direction: column;
+    }
+    .footer_container {
+        width: 95%;
+        margin: 0px;
+    }
+    .service_slider {
+        flex-direction: column;
+       
+    }
+    .service{
+        padding-left: 30px;
+    }
+    .sub{
+        padding-left: 40px;
+    }
+}
